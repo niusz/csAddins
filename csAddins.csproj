@@ -59,6 +59,12 @@
   <ItemGroup>
     <Compile Include="CreateElement.cs" />
     <Compile Include="DemoForm.cs" />
+    <Compile Include="LevelChangedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelChangedForm.Designer.cs">
+      <DependentUpon>LevelChangedForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModalForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="commands.xml" />
+    <EmbeddedResource Include="LevelChangedForm.resx">
+      <DependentUpon>LevelChangedForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModalForm.resx">
       <DependentUpon>ModalForm.cs</DependentUpon>
     </EmbeddedResource>

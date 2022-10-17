@@ -10,7 +10,9 @@ using Bentley.MicroStation.WinForms;
 
 namespace csAddins
 {
-    public partial class NoteCoordForm : Adapter
+    public partial class NoteCoordForm : 
+        //Form
+        Adapter
     {
         public NoteCoordForm()
         {
