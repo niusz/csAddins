@@ -177,15 +177,15 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtScale;
-        private System.Windows.Forms.TextBox txtXOffset;
+        public System.Windows.Forms.TextBox txtScale;
+        public System.Windows.Forms.TextBox txtXOffset;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtYOffset;
+        public System.Windows.Forms.TextBox txtYOffset;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtZOffset;
+        public System.Windows.Forms.TextBox txtZOffset;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtCopies;
+        public System.Windows.Forms.TextBox txtCopies;
         private System.Windows.Forms.Button btnDefault;
     }
 }

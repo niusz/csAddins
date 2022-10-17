@@ -130,10 +130,10 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpTxtDir;
-        private System.Windows.Forms.RadioButton rdoVert;
-        private System.Windows.Forms.RadioButton rdoHoriz;
+        public System.Windows.Forms.RadioButton rdoVert;
+        public System.Windows.Forms.RadioButton rdoHoriz;
         private System.Windows.Forms.GroupBox grpLabel;
-        private System.Windows.Forms.RadioButton rdoXY;
-        private System.Windows.Forms.RadioButton rdoEN;
+        public System.Windows.Forms.RadioButton rdoXY;
+        public System.Windows.Forms.RadioButton rdoEN;
     }
 }

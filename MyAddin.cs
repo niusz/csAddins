@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using BCOM = Bentley.Interop.MicroStationDGN;
+using Bentley.MicroStation.InteropServices;
 
 namespace csAddins
 {
@@ -26,6 +28,8 @@ namespace csAddins
             //CreateElement.LinearAndAngularDimension();
             //CreateElement.CurveAndBsplineCurve();
             //CreateElement.ConeAndBsplineSurface();
+            BCOM.Application app = Utilities.ComApp;
+            app.CadInputQueue.SendKeyin("csAddins DemoForm Toolbar");
             return 0;
         }
 
